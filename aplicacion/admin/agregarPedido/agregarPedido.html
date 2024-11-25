@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type=text/css href="agregarPedidoStyle.css">
+    <link rel="shortcut icon" href="../../icons/eggs-amber_109464.ico">
+    <title>Agregar Pedido</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Avícola El Manantial</h1>
+    </div>
+
+    <button class="btn-volver" onclick="location.href='../admin.html'">Volver</button>
+
+    <div class="formulario">
+        <h1>Agregar Pedido</h1>
+        <form id="agregarPedido-form" method="post">
+            <div class="pedido">
+                <input type="number" id="id_proveedor" name="id_proveedor" required>
+                <label>ID de proveedor</label>
+            </div>
+            <div class="pedido">
+                <input type="datetime" id="fecha_pedido" name="fecha_pedido" required>
+                <label>Fecha de pedido</label>   
+            </div>
+            <div class="pedido">
+                <input type="text" id="estado" name="estado" required>
+                <label>Estado del pedido</label>
+            </div>
+            <input type="submit" value="Agregar Pedido">
+        </form>
+    </div>
+
+    <script src="agregarPedido.js"></script>
+    
+</body>
+</html>

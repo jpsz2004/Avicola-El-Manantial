@@ -1,0 +1,339 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(150deg, #f3f192, #f37506);
+    height: 100vh;
+}
+
+.header {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 400px;
+    padding: 20px 0;
+    background: #f37506;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    border-radius: 15px;
+}
+
+.header h1 {
+    color: #fff;
+    text-align: center;
+}
+
+.btn-cerrar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-cerrar:hover {
+    color: #f34906;
+}
+
+/* Dar estilo a los botones*/
+.btn-agregar {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-agregar:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-agregar:active {
+    background-color: #f34906;
+    color: white;
+}
+
+.btn-modificar {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-modificar:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-modificar:active {
+    background-color: #f34906;
+    color: white;
+}
+
+.btn-eliminar {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-eliminar:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-eliminar:active {
+    background-color: #f34906;
+    color: white;
+}
+
+.btn-listar {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-listar:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-listar:active {
+    background-color: #f34906;
+    color: white;
+}
+
+.btn-stock {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-stock:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-stock:active {
+    background-color: #f34906;
+    color: white;
+}
+
+.btn-agregar-proveedor   {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-agregar-proveedor:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-agregar-proveedor:active {
+    background-color: #f34906;
+    color: white;
+}
+
+.btn-listar-proveedores {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-listar-proveedores:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-listar-proveedores:active {
+    background-color: #f34906;
+    color: white;
+}
+
+.btn-ver-ventas {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-ver-ventas:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-ver-ventas:active {
+    background-color: #f34906;
+    color: white;
+}
+
+
+.btn-agregar-venta {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-agregar-venta:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-agregar-venta:active {
+    background-color: #f34906;
+    color: white;
+}
+
+.btn-agregar-det-venta {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-agregar-det-venta:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-agregar-det-venta:active {
+    background-color: #f34906;
+    color: white;
+}
+
+.btn-agregar-pedido {
+    width: 200px;
+    background-color: #f37506;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: grid;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-agregar-pedido:hover {
+    background-color: #ed8701;
+    color: white;
+}
+
+.btn-agregar-pedido:active {
+    background-color: #f34906;
+    color: white;
+}
