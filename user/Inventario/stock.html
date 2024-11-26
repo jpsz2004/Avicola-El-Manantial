@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type=text/css href="stockStyle.css">
+    <link rel="shortcut icon" href="../../../icons/eggs-amber_109464.ico">
+    <title>Stock de productos</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Avícola El Manantial</h1>
+    </div>
+
+    <div class="formulario">
+        <h1>Consulta el stock de un producto</h1>
+        <form id="stock-form" method="post">
+            <div class="id_prod">
+                <input type="number" id="id" name="id" required>
+                <label>ID del producto</label>
+            </div>
+            <input type="submit" value="Consultar Stock">
+        </form>
+    </div>
+    <p id="stock"></p> <!-- Este es el elemento para mostrar el stock -->
+    
+    <script src="stock.js"></script>    
+
+    <button class="btn-volver" onclick="location.href='../usuario.html'">Volver</button>
+    
+</body>
+</html>

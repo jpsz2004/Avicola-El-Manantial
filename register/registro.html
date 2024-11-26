@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../icons/eggs-amber_109464.ico">
+    <link rel="stylesheet" type=text/css href="registroStyle.css">
+    <title>Registro</title>
+</head>
+<body>
+    
+        <div class="header">
+            <h1>Registro de usuario</h1>
+        </div>
+    
+        <button class="btn-volver" onclick="location.href='../home/index.html'">Volver</button>
+    
+        <div class="formulario">
+            <h1>Registro de usuario</h1>
+            <form id="registro-form" method="post">
+                <div class="username">
+                    <input type="text" id="dni" name="dni" required>
+                    <label>DNI de usuario</label>
+                </div>
+                <div class="username">
+                    <input type="text" id="primer-nombre" name="primer-nombre" required>
+                    <label>Primer nombre</label>
+                </div>
+                <div class="username">
+                    <input type="text" id="segundo-nombre" name="segundo-nombre" required>
+                    <label>Segundo nombre</label>
+                </div>
+                <div class="username">
+                    <input type="text" id="primer-apellido" name="primer-apellido" required>
+                    <label>Primer apellido</label>
+                </div>
+                <div class="username">
+                    <input type="text" id="segundo-apellido" name="segundo-apellido" required>
+                    <label>Segundo apellido</label>
+                </div>
+                <div class="username">
+                    <input type="text" id="telefono" name="telefono" required>
+                    <label>Telefono</label>
+                </div>
+                <div class="username">
+                    <input type="password" id="password" name="password" required>
+                    <label>Contraseña</label>
+                </div>
+                <input type="submit" value="Registrar">
+            </form>
+        </div>
+
+    <script src="registro.js"></script>
+</body>
+</html>
