@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../icons/eggs-amber_109464.ico">
+    <link rel="stylesheet" type=text/css href="agregarCompraStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Agregar compra</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Agregar compra</h1>
+    </div>
+
+    <button class="btn-volver" onclick="location.href='../compras.html'">Volver</button>
+
+    <div class="formulario">
+        <h1>Agregar Compra</h1>
+        <form id="agregarCompra-form" method="post">
+            <div class="compra">
+                <input type="number" id="pedido_id" name="pedido_id" required>
+                <label>ID de pedido</label>
+            </div>
+            <div class="compra">
+                <input type="datetime" id="fecha_compra" name="fecha_compra" required>
+                <label>Fecha de compra</label>   
+            </div>
+            <div class="compra">
+                <input type="number" id="monto_total" name="monto_total" required>
+                <label>Monto total</label>
+            </div>
+            <input type="submit" value="Agregar compra">
+        </form>
+    </div>
+
+    <script src="agregarCompra.js"></script>
+
+    <i class="fa-solid fa-house" onclick="location.href='../../admin.html'"></i>
+    
+</body>
+</html>

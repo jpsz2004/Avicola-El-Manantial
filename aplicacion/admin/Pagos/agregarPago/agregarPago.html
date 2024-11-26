@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../icons/eggs-amber_109464.ico">
+    <link rel="stylesheet" type=text/css href="agregarPagoStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Agregar pago</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Avícola El Manantial</h1>
+    </div>
+
+    <button class="btn-volver" type="button" id="btn-volver" onclick="location.href='../pagos.html'">Volver</button>
+
+    <div class="formulario">
+        <h1>Agregar un pago</h1>
+        <form id="agregarPago-form" method="post">
+            <div class="pago">
+                <input type="number" id="venta_id" name="venta_id" required>
+                <label>ID de la venta</label>
+            </div>
+            <div class="pago">
+                <input type="number" id="monto_pagado" name="monto_pagado" required>
+                <label>Monto pagado</label>
+            </div>
+            <div class="pago">
+                <input type="date" id="fecha_pago" name="fecha_pago" required>
+                <label>Fecha de pago</label>
+            </div>
+            <div class="pago">
+                <input type="text" id="metodo_pago" name="metodo_pago" required>
+                <label>Método de pago</label>
+            </div>
+            <div class="pago">
+                <input type="text" id="estado" name="estado" required>
+                <label>Estado del pago</label>
+            </div>
+            <input type="submit" value="Agregar Pago">
+        </form>
+    </div>
+
+        <script src="agregarPago.js"></script>
+
+        <i class="fa-solid fa-house" onclick="location.href='../../admin.html'"></i>
+    
+</body>
+</html>

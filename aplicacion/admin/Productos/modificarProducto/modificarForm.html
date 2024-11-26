@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar producto</title>
+    <link rel="stylesheet" type=text/css href="modificarStyle.css">
+    <link rel="shortcut icon" href="../../../../icons/eggs-amber_109464.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <button class="btn-volver" onclick="location.href='/admin/Productos/modificarProducto/buscarForm.html'">Volver</button>
+
+    <div class="formulario">
+        <h1>Modifica un producto</h1>
+        <form id="modificar-form" method="post">
+            <div class="mod">
+                <input type="number" id="id" name="id_producto" required>
+                <label>ID del producto</label>
+            </div>
+            <div class="mod">
+                <input type="text" id="nombre" name="nombre" required>
+                <label>Nombre del producto</label>
+            </div>
+            <div class="mod">
+                <input type="text" id="tipo" name="tipo" required>
+                <label>Tipo de producto</label>
+            </div>
+            <div class="mod">
+                <input type="number" id="precio" name="precio" required>
+                <label>Precio del producto</label>
+            </div>
+            <div class="mod">
+                <input type="number" id="stock_actual" name="stock_actual" required>
+                <label>Stock del producto</label>
+            </div>
+            <div class="mod">
+                <input type="number" id="stock_minimo" name="stock_minimo" required>
+                <label>Stock mínimo del producto</label>
+            </div>
+            <div class="mod">
+                <input type="text" id="descripcion" name="descripcion" required>
+                <label>Descripción del producto</label>
+            </div>
+            <div class="mod">
+                <input type="text" id="unidad" name="unidad" required>
+                <label>Unidad de medida</label>
+            </div>
+            <input type="submit" value="Modificar Producto">
+        </form>
+    </div>
+
+    <script src="modificarProducto.js"></script>
+
+    <i class="fa-solid fa-house" onclick="location.href='../../admin.html'"></i>
+</body>
+</html>
