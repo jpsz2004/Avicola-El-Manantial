@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../../icons/eggs-amber_109464.ico">
+    <link rel="stylesheet" type=text/css href="agregarClienteStyle.css">
+    <title>Agregar Cliente</title>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Avícola El Manantial</h1>
+    </div>
+
+    <button class="btn-volver" onclick="location.href='../usuario.html'">Volver</button>
+
+    <div class="formulario">
+        <h1>Agregar Cliente</h1>
+        <form id="agregarCliente-form" method="post">
+            <div class="cliente">
+                <input type="number" id="dni" name="dni" required>
+                <label>DNI del cliente</label>
+            </div>
+            <div class="cliente">
+                <input type="text" id="nombre" name="nombre" required>
+                <label>Nombre del cliente</label>   
+            </div>
+            <div class="cliente">
+                <input type="text" id="tipo" name="tipo" required>
+                <label>Tipo de cliente</label>
+            </div>
+            <div class="cliente">
+                <input type="number" id="total_compras" name="total_compras" required>
+                <label>Total de compras</label>
+            </div>
+            <input type="submit" value="Agregar Cliente">
+        </form>
+    </div>
+
+    <script src="agregarCliente.js"></script>
+    
+</body>
+</html>
